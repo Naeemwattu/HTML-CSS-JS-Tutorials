@@ -354,3 +354,48 @@ h3{
 .fa-heart-o{
     color: red;
 }
+
+/* ----------------------------------------The End----------------------------------------- */
+
+
+
+/* -----------------About Us Page---------------------- */
+.sub-header{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.sub-header h1{
+    margin-top: 80px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-us-col{
+    flex-basis: 48%;
+    padding-bottom: 30px 2px;
+}
+.about-us-col img{
+    width: 100%;
+}
+.about-us-col h1{
+    padding-top: 0;
+}
+.about-us-col p{
+    padding: 15px 0 25px;
+}
+.red-btn{
+    border: 1px solid rgb(251, 96, 96);;
+    background: transparent;
+    color: rgb(243, 96, 96);;
+}
+.red-btn:hover{
+    color: white;
+}
