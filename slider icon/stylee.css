@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .main{
     width: 100%;
@@ -9,4 +10,69 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    text-align: center;
+}
+nav{
+    width: 85%;
+    margin: auto;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.menu{
+    width: 30px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+.text-box{
+    width: 60%;
+    margin: 160px auto 0;
+    color: white;
+}
+.text-box h1{
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+.text-box p{
+    font-size: 18px;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+.text-box button{
+    width: 180px;
+    padding: 10px 0;
+    color: white;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background: transparent;
+}
+.siderbar{
+    height: 280px;
+    width: 50px;
+    background: white;
+    border-radius: 5px;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    position: absolute;
 }
