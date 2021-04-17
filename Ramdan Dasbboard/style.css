@@ -54,3 +54,37 @@ header ul li a.active{
     color: black;
     border-radius: 30px;
 }
+
+
+
+
+.content{
+    position: relative;
+}
+.content .textbox{
+    position: relative;
+    max-width: 500px;
+}
+.content .textbox h1{
+    color: yellowgreen;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+}
+.content .textbox p{
+    font-size: 1.2em;
+    color: #333;
+}
+.content .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: tomato;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
